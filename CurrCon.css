@@ -21,7 +21,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 60px
+    gap: 60px;
+    border-radius: 7px;
 
 }
 
@@ -103,7 +104,6 @@ form button{
     border-radius: 4px;
     appearance: none;
     font-size: large;
-
 }
 
 
