@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #FBFBF2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    height: 80%;
+    width: 80%;
+    background-color: #E5E6E4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px
+
+}
+
+form input, button {
+    
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+.EnterAmount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.input1 img, .input2 img{
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    right: 0px;
+    bottom: -10px;
+}
+
+.input1, .input2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+input{
+    min-width: 200px;
+    font-size: 20px;
+    appearance: none;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+
+.dropdown{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+
+.selectContainer{
+    border: 1px solid #A6A2A2;
+    border-radius: 7px;
+    height: fit-content;
+    width: fit-content;
+    padding: 7px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.selectContainer select{
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+}
+
+form button{
+    width: 300px;
+    background-color: #A6A2A2;
+    color: #FBFBF2;
+    border-radius: 4px;
+    appearance: none;
+    font-size: large;
+
+}
+
+
+
+
